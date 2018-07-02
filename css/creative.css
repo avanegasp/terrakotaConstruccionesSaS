@@ -1,0 +1,38 @@
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.new-site.home .intro .tagline-wrapper{
+  text-align: center;
+  padding: 160px;
+  margin-left: 145px;
+  margin-top: 55px;
+}
+
+section{
+  padding: 120px;
+}
+
+#portafolio img{
+  width: 500px!important;
+  height: 400px!important;
+}
+
+.team-member img{
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+#experiencia img{
+  width: 100px!important;
+  height: 100px!important;
+}
+
+#experiencia .logosExperiencia{
+  margin-left: 90px;
+  margin-right: -90px;
+}
