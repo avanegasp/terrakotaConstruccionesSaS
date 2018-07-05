@@ -1,0 +1,115 @@
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tagline-wrapper{
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header1.jpg') no-repeat center top;
+  background-size: cover;
+  /*color: white;*/
+	/*background-attachment: fixed;*/
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ }
+
+.new-site.home .intro .tagline-wrapper{
+  text-align: center;
+  padding: 160px;
+  margin-top: 55px;
+}
+
+section{
+  padding: 120px;
+}
+
+#portafolio img{
+  width: 500px!important;
+  height: 400px!important;
+}
+
+.team-member img{
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+#experiencia img{
+  width: 100px!important;
+  height: 100px!important;
+}
+
+#experiencia .logosExperiencia{
+  margin-left: 90px;
+  margin-right: -90px;
+}
+.parrafoInicial{
+  display: contents;
+}
+
+#servicios {
+  background-color: rgb(163, 0, 0) !important;
+}
+
+#equipo{
+  background-color: rgb(163, 0, 0) !important;
+}
+
+
+@media (min-width: 768px) {
+  .container{
+    /*background-color: green;*/
+  }
+
+  p.parrafoExperiencia{
+    margin-left: -70px;
+  }
+
+  #equipo .fotos{
+    margin-left: -14px;
+    margin-right: -64px;
+  }
+
+  #experiencia .logos{
+    margin-left: 90px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container{
+    /*background-color: red;*/
+  }
+
+  #experiencia .logos{
+    margin-left: -94px;
+  }
+
+  #experiencia .logosExperiencia{
+    margin-left: -10px;
+    /*margin-right: -19px;*/
+  }
+
+  #experiencia .parrafoExperiencia{
+    margin-left: 2px;
+  }
+
+  #equipo .fotos{
+    margin-left: -94px;
+    margin-right: -94px;
+  }
+
+  .masthead .titulo{
+    margin-left: -97px;
+  }
+
+  .masthead{
+    margin-top: -60px;
+  }
+
+  h1 .text-uppercase.titulo{
+    margin-left: -90px;
+  }
+}

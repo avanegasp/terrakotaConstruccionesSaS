@@ -1,0 +1,93 @@
+body{
+	background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/header1.jpg') no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	margin-top: -55px;
+ }
+
+ ul li{
+	 margin-top: 20px;
+		text-align: left;
+		font-size: 20px;
+		color: #ffffff;
+ }
+
+ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+ .row{
+	 margin-left: -140px;
+	 margin-top: -45px;
+ }
+
+.social-icons{
+	position: fixed;
+}
+
+.container{
+	margin-top: 60px;
+	margin-left: -55px;
+	margin-bottom: 60px;
+}
+
+.serviciosInicio{
+	 margin-left:870px;
+	 position:fixed;
+}
+
+@media (min-width: 350px) {
+	.container{
+		/*background-color: red;*/
+		/*display: table-row-group;*/
+	}
+	.row{
+		margin-left: -2px;
+		margin-top: 2px;
+	}
+
+	.social-icons{
+		position: absolute;
+	}
+
+}
+
+@media (min-width: 480px) {
+	.row{
+		margin-left: 50px;
+		margin-top: -45px;
+	}
+	.social-icons{
+		/*background-color: blue;*/
+	}
+
+
+}
+
+@media (min-width: 768px) {
+		.container{
+			margin-left: 117px;
+		}
+
+		.container h4{
+			margin-left: 14px;
+		}
+
+		.social-icons{
+			/*background-color: yellow;*/
+			/*display: contents;*/
+
+		}
+  }
+
+	@media (min-width: 992px) {
+		.container{
+			margin-left: -90px;
+		}
+}
