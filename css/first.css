@@ -42,10 +42,6 @@ section{
   height: 100px!important;
 }
 
-#experiencia .logosExperiencia{
-  margin-left: 90px;
-  margin-right: -90px;
-}
 .parrafoInicial{
   display: contents;
 }
@@ -62,8 +58,7 @@ section{
 @media (min-width: 768px) {
   .container{
     /*background-color: green;*/
-  }
-
+}
   p.parrafoExperiencia{
     margin-left: -70px;
   }
@@ -73,43 +68,85 @@ section{
     margin-right: -64px;
   }
 
-  #experiencia .logos{
-    margin-left: 90px;
-  }
 }
 
 @media (min-width: 640px) {
-  .container{
-    /*background-color: red;*/
+  #experiencia .logos{
+    margin-left: -50px;
+  }
+  #equipo .fotos{
+    margin-left: -82px;
+    margin-right: -50px;
+  }
+  #experiencia .parrafoExperiencia{
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+  #acerca .section-heading{
+    margin-left: -95px;
+    margin-right: -95px;
   }
 
-  #experiencia .logos{
-    margin-left: -94px;
+  h1.text-uppercase.titulo{
+    margin-left: -90px;
+  }
+  #equipo .container{
+    margin-left: 25px;
+  }
+
+}
+
+
+@media (min-width: 480px) {
+  /*.container{
+    background-color: red;
+  }
+
+  .masthead .container.my-auto{
+    margin-left: -45px;
+    display: inline-table;
+  }*/
+
+  h1.text-uppercase.titulo{
+    font-size: 30px;
+  }
+
+  .masthead p.parrafoTitulo{
+    font-size: 23px;
   }
 
   #experiencia .logosExperiencia{
-    margin-left: -10px;
-    /*margin-right: -19px;*/
+    margin-left: -87px;
+  }
+
+  #contact .iconos{
+    font-size: 10px;
+  }
+
+  #contact h5{
+    font-size: 17px;
   }
 
   #experiencia .parrafoExperiencia{
-    margin-left: 2px;
+    margin-left: -47px;
+    margin-right: -156px;
   }
 
-  #equipo .fotos{
-    margin-left: -94px;
-    margin-right: -94px;
+  #experiencia h2.section-heading{
+    margin-left: -40px;
   }
 
-  .masthead .titulo{
-    margin-left: -97px;
+  .masthead strong.empresa {
+    display: grid;
+    margin-left: -60px;
   }
 
-  .masthead{
-    margin-top: -60px;
+  hr{
+    margin-left: 56px;
   }
 
-  h1 .text-uppercase.titulo{
-    margin-left: -90px;
+  .masthead p.parrafoTitulo{
+    margin-left: 30px;
   }
+
 }

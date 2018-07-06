@@ -339,8 +339,8 @@ header.masthead h1 {
    /*background-color: red;*/
  }
  #acerca .row{
-   margin-left: -120px;
-   display: table-caption;
+   /*margin-left: -120px;
+   display: table-caption;*/
  }
 
  #servicios{
@@ -393,7 +393,7 @@ header.masthead h1 {
  }
 
  #portafolio .text-center{
-   margin-left: -50px;
+   margin-left: 40px;
  }
 
  .team-member{
